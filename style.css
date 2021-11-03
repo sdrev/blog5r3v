@@ -5,28 +5,29 @@
 body {
     font-family: Open Sans;
     margin: 0px;
-    background: #2C3E50;
+    background: #394857;
 }
 
 h1 {
     font-family: Montserrat;
-    font-size: 40px;
-    color: #333;
-    font-weight: 600;
+    font-size: 35px;
+    color: rgb(34, 123, 182);
+    font-weight: 400;
     letter-spacing: -3px;
-    text-align: center;
+    text-align: left;
+    text-decoration: underline;
 }
 
 h2 {
     font-family: Montserrat;
     font-size: 32px;
-    color: #444;
+    color: #6e8fad;
     font-weight: 600;
     letter-spacing: -3px;
 }
 
 .cabecera {
-    background-color: #e9e9e9;
+    background-color: #1d2125;
     min-height: 100px;
     text-align: center;
 }
@@ -58,17 +59,27 @@ div.contenido img {
 }
 
 .barra-lateral h3 {
-    color: #444;
-    text-align: center;
-    border-bottom: 1px solid #444;
+    color: aliceblue;
+    text-align: left;
+}
+
+.barra-lateral p {
+    color: rgb(162, 172, 180);
+    margin-bottom: 15px;
+}
+
+.barra-lateral a,li {
+    list-style:none;
+    color: rgb(99, 141, 175);
+
 }
 
 .pie {
     clear: both;
     color: white;
     background-color: #2C3E50;
-/*    min-height: 5px;*/
-    padding: 10px;
+    min-height: 5px;
+    padding: 1px;
     text-align: center;
 }
 
@@ -92,3 +103,4 @@ div.contenido img {
         text-align: center;
     }
 }
+
