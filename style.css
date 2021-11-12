@@ -27,13 +27,11 @@ h2 {
 }
 
 .cabecera {
-    background-color: #1d2125;
-    min-height: 100px;
-    text-align: center;
+    background-color: #627c97;
 }
+.cabecera entrada{
+    color: aqua;
 
-.cabecera a img {
-    margin: 10px 0px;
 }
 
 .cuerpo {
