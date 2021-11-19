@@ -1,11 +1,27 @@
 /* Los tipos de letra no estándar hay que importarlos */
 @import url('https://fonts.googleapis.com/css?family=Montserrat');
 @import url('https://fonts.googleapis.com/css?family=Open+Sans');
+html {
+    min-height: 100%;
+    position: relative;
+  }
 
 body {
     font-family: Open Sans;
     margin: 0px;
     background: #394857;
+    margin-bottom: 10px;
+}
+
+footer {
+    clear: both;
+    color: white;
+    background-color: #2C3E50;
+    min-height: 5px;
+    text-align: center;
+    position: absolute;
+    bottom: 0;
+    width: 100%;
 }
 
 h1 {
@@ -50,6 +66,16 @@ div.contenido img {
     width: 100%;
 }
 
+#opciones_entrada{
+    font-family: Calibri;
+    font-weight:bold;
+    font-size:17px;
+}
+
+#opciones_entrada li{
+    display: inline;
+    margin: 50px;
+}
 .barra-lateral {
     padding-top: 40px;
     float: left;
@@ -73,16 +99,17 @@ div.contenido img {
 }
 
 .paginacion {
-	margin:20px 0;
+    min-height: 5px;
+    padding: 1px;
+    margin-bottom: 50px;
 }
 
 .paginacion ul {
-	list-style:none;
-	text-align: center;
+	text-align:center;
 }
 
 .paginacion ul li {
-	display:inline-block;
+	display:inline-flex;
 	margin-right:10px;
 }
 
@@ -101,16 +128,6 @@ div.contenido img {
 .paginacion ul li .active {
 	background:#037E8C;
 	font-weight:bold;
-}
-
-footer {
-    clear: both;
-    color: white;
-    bottom: 0;
-    background-color: #2C3E50;
-    min-height: 5px;
-    padding: 1px;
-    text-align: center;
 }
 
 @media (max-width: 640px) {
