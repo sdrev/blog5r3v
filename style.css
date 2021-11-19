@@ -72,7 +72,38 @@ div.contenido img {
 
 }
 
-.pie {
+.paginacion {
+	margin:20px 0;
+}
+
+.paginacion ul {
+	list-style:none;
+	text-align: center;
+}
+
+.paginacion ul li {
+	display:inline-block;
+	margin-right:10px;
+}
+
+.paginacion ul li a {
+	display:block;
+	padding:10px 20px;
+	color:#fff;
+	background:#024959;
+	text-decoration: none;
+}
+
+.paginacion ul li a:hover {
+	background:#037E8C;
+}
+
+.paginacion ul li .active {
+	background:#037E8C;
+	font-weight:bold;
+}
+
+footer {
     clear: both;
     color: white;
     bottom: 0;
@@ -80,7 +111,6 @@ div.contenido img {
     min-height: 5px;
     padding: 1px;
     text-align: center;
-    position: absolute;
 }
 
 @media (max-width: 640px) {
@@ -103,4 +133,3 @@ div.contenido img {
         text-align: center;
     }
 }
-
