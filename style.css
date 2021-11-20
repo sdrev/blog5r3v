@@ -1,16 +1,18 @@
-/* Los tipos de letra no estándar hay que importarlos */
 @import url('https://fonts.googleapis.com/css?family=Montserrat');
 @import url('https://fonts.googleapis.com/css?family=Open+Sans');
+
 html {
     min-height: 100%;
     position: relative;
+    width: auto;
   }
 
 body {
     font-family: Open Sans;
-    margin: 0px;
+    margin: auto;
     background: #394857;
-    margin-bottom: 10px;
+    margin-bottom: auto;
+    width: auto;
 }
 
 footer {
@@ -45,9 +47,9 @@ h2 {
 .cabecera {
     background-color: #627c97;
 }
+
 .cabecera entrada{
     color: aqua;
-
 }
 
 .cuerpo {
@@ -55,6 +57,8 @@ h2 {
     padding: 20px;
     margin-left: auto;
     margin-right: auto;
+    margin-bottom: auto;
+    width: auto
 }
 
 .contenido {
@@ -62,24 +66,30 @@ h2 {
     width: 65%;
 }
 
+.articulo{
+    font-size: large;
+    color: azure;
+    float: right;
+    width: 65%;
+    margin-bottom: 50px;
+}
+.opcion{
+    text-align: center;
+    margin-bottom: 50px;
+}
+
+.opcion li {
+    display:inline;
+}
+
 div.contenido img {
-    width: 100%;
+    width: auto;
 }
 
-#opciones_entrada{
-    font-family: Calibri;
-    font-weight:bold;
-    font-size:17px;
-}
-
-#opciones_entrada li{
-    display: inline;
-    margin: 50px;
-}
 .barra-lateral {
     padding-top: 40px;
     float: left;
-    width: 30%;
+    width: 25%;
 }
 
 .barra-lateral h3 {
@@ -94,6 +104,11 @@ div.contenido img {
 
 .barra-lateral a,li {
     list-style:none;
+    color: rgb(99, 141, 175);
+
+}
+.barra-lateral ol {
+    margin-top: 20%;
     color: rgb(99, 141, 175);
 
 }
@@ -130,23 +145,4 @@ div.contenido img {
 	font-weight:bold;
 }
 
-@media (max-width: 640px) {
-    .barra-lateral {
-        display: none;
-    }
 
-    .cuerpo {
-        max-width: 600px;
-        margin-left: auto;
-        margin-right: auto;
-    }
-
-    .contenido {
-        float: none;
-        width: 100%;
-    }
-
-    h1, h2, h3 {
-        text-align: center;
-    }
-}
