@@ -65,6 +65,9 @@ h2 {
     float: right;
     width: 65%;
 }
+.contenido ol{
+    margin-bottom: 50px;
+}
 
 .articulo{
     font-size: large;
@@ -115,7 +118,6 @@ div.contenido img {
 .barra-lateral ol {
     margin-top: 20%;
     color: rgb(99, 141, 175);
-
 }
 
 .paginacion {
